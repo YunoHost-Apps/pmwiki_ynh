@@ -1,7 +1,7 @@
-PmWiki est un système de type wiki pour la création et l'entretien collectif de sites Internet. 
+PmWiki is a wiki-based content-management system (CMS) for collaborative creation and maintenance of websites. 
 
 ### Features
 
-- Présentation personnalisée ;
-- Contrôle d'accès ;
-- Personnalisation et modules
+- Custom look-and-feel;
+- Access control;
+- Customization and plugin architecture
