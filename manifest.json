@@ -13,7 +13,7 @@
         "website": "https://www.pmwiki.org",
         "demo": "https://demo.example.com",
         "admindoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr",
-        "userdoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers",
+        "userdoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers"
     },
     "license": "GPL-2.0-only",
     "maintainer": {
