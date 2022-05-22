@@ -15,13 +15,13 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-PmWiki est un système de type wiki pour la création et l'entretien collectif de sites Internet. 
+PmWiki is a wiki-based content-management system (CMS) for collaborative creation and maintenance of websites. 
 
 ### Features
 
-- Présentation personnalisée ;
-- Contrôle d'accès ;
-- Personnalisation et modules
+- Custom look-and-feel;
+- Access control;
+- Customization and plugin architecture
 
 **Shipped version:** 2.3.4~ynh1
 
@@ -51,7 +51,6 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 * Official app website: https://www.pmwiki.org
 * Official user documentation: https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers
 * Official admin documentation: https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr
-* Upstream app code repository: https://some.forge.com/example/example
 * YunoHost documentation for this app: https://yunohost.org/app_pmwiki
 * Report a bug: https://github.com/YunoHost-Apps/pmwiki_ynh/issues
 
