@@ -3,8 +3,8 @@
     "id": "pmwiki",
     "packaging_format": 1,
     "description": {
-        "en": " meant to give a rough idea to users browsing a catalog of 100+ apps)",
-        "fr": "Système de type wiki pour la création et l'entretien collectif de sites Internet. "
+        "en": "wiki-based content-management system (CMS) for collaborative creation and maintenance of websites",
+        "fr": "Système de type wiki pour la création et l'entretien collectif de sites Internet"
     },
     "version": "2.3.4~ynh1",
     "url": "https://www.pmwiki.org",
@@ -14,7 +14,6 @@
         "demo": "https://demo.example.com",
         "admindoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr",
         "userdoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers",
-        "code": "https://some.forge.com/example/example"
     },
     "license": "GPL-2.0-only",
     "maintainer": {
