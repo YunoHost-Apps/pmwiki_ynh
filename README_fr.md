@@ -47,7 +47,6 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 * Site officiel de l'app : https://www.pmwiki.org
 * Documentation officielle utilisateur : https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers
 * Documentation officielle de l'admin : https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr
-* Dépôt de code officiel de l'app : https://some.forge.com/example/example
 * Documentation YunoHost pour cette app : https://yunohost.org/app_pmwiki
 * Signaler un bug : https://github.com/YunoHost-Apps/pmwiki_ynh/issues
 
