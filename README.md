@@ -29,7 +29,7 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 
 ## Screenshots
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/pmwiki.png)
 
 ## Disclaimers / important information
 
