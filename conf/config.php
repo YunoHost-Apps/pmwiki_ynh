@@ -9,11 +9,11 @@ $WikiTitle = "My New Wiki";
 $DefaultPasswords['admin'] = pmcrypt('__PASSWORD__');
 
 $EnableUpload = 1;
-$DefaultPasswords['upload'] = pmcrypt('secrettwo');
+$DefaultPasswords['upload'] = pmcrypt('secret');
 
 # Uncomment and change these if your server is not in your timezone
 date_default_timezone_set('__TIMEZONE__');
 
 $TimeFmt = '%B %d, %Y, at %I:%M %p %Z';
 
-XLPage('fr','PmWikiFr.XLPage');
+#XLPage('fr','PmWikiFr.XLPage');
