@@ -1,0 +1,59 @@
+{
+    "name": "PmWiki",
+    "id": "pmwiki",
+    "packaging_format": 1,
+    "description": {
+        "en": " meant to give a rough idea to users browsing a catalog of 100+ apps)",
+        "fr": "Système de type wiki pour la création et l'entretien collectif de sites Internet. "
+    },
+    "version": "2.3.4~ynh1",
+    "url": "https://www.pmwiki.org",
+    "upstream": {
+        "license": "GPL-2.0-only",
+        "website": "https://www.pmwiki.org",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr",
+        "userdoc": "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers",
+        "code": "https://some.forge.com/example/example"
+    },
+    "license": "GPL-2.0-only",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php8.0-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/pmwiki",
+                "default": "/pmwiki"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "name": "password",
+                "type": "password",
+                "help": {
+                    "en": "Use the help field to add an information for the admin about this question.",
+                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+                }
+            }
+        ]
+    }
+}

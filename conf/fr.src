@@ -1,0 +1,7 @@
+SOURCE_URL=http://www.pmwiki.org/pub/pmwiki/i18n/i18n-fr.zip
+SOURCE_SUM=sha256 checksum
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
