@@ -6,7 +6,7 @@
 
 YNH_PHP_VERSION="7.3"
 
-pkg_dependencies="php${YNH_DEFAULT_PHP_VERSION}-fpm"
+pkg_dependencies=""
 
 #=================================================
 # PERSONAL HELPERS
