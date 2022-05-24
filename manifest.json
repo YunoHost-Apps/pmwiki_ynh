@@ -6,7 +6,7 @@
         "en": "wiki-based content-management system (CMS) for collaborative creation and maintenance of websites",
         "fr": "Système de type wiki pour la création et l'entretien collectif de sites Internet"
     },
-    "version": "2.3.4~ynh1",
+    "version": "2.3.4~ynh2",
     "url": "https://www.pmwiki.org",
     "upstream": {
         "license": "GPL-2.0-only",
