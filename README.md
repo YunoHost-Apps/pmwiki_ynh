@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # PmWiki for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/pmwiki.svg)](https://dash.yunohost.org/appci/app/pmwiki) ![](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/pmwiki.svg)](https://dash.yunohost.org/appci/app/pmwiki) ![Working status](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)  
 [![Install PmWiki with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -23,46 +23,32 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control;
 - Customization and plugin architecture
 
-**Shipped version:** 2.3.4~ynh1
+**Shipped version:** 2.3.5~ynh1
 
 **Demo:** https://demo.example.com
 
 ## Screenshots
 
-![](./doc/screenshots/pmwiki.png)
-
-## Disclaimers / important information
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
+![Screenshot of PmWiki](./doc/screenshots/pmwiki.png)
 
 ## Documentation and resources
 
-* Official app website: https://www.pmwiki.org
-* Official user documentation: https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers
-* Official admin documentation: https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr
-* YunoHost documentation for this app: https://yunohost.org/app_pmwiki
-* Report a bug: https://github.com/YunoHost-Apps/pmwiki_ynh/issues
+* Official app website: <https://www.pmwiki.org>
+* Official user documentation: <https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers>
+* Official admin documentation: <https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr>
+* YunoHost documentation for this app: <https://yunohost.org/app_pmwiki>
+* Report a bug: <https://github.com/YunoHost-Apps/pmwiki_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/pmwiki_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/pmwiki_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade pmwiki -u https://github.com/YunoHost-Apps/pmwiki_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
