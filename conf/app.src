@@ -1,5 +1,5 @@
-SOURCE_URL=https://www.pmwiki.org/pub/pmwiki/pmwiki-2.3.5.zip
-SOURCE_SUM=86d7ebfdf5825338888d9add2e5758b70726d3b58ef465500f02e87f8946c832
+SOURCE_URL=https://www.pmwiki.org/pub/pmwiki/pmwiki-2.3.21.zip
+SOURCE_SUM=665d4f7c719fe7159dedc088dae8fa2c7e3f6b18ef424001b26ee0b4741f6998
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
