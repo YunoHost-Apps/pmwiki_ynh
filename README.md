@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # PmWiki for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/pmwiki.svg)](https://dash.yunohost.org/appci/app/pmwiki) ![Working status](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/pmwiki.svg)](https://dash.yunohost.org/appci/app/pmwiki) ![Working status](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
+
 [![Install PmWiki with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -19,11 +20,11 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 
 ### Features
 
-- Custom look-and-feel;
-- Access control;
+- Custom look-and-feel
+- Access control
 - Customization and plugin architecture
 
-**Shipped version:** 2.3.5~ynh1
+**Shipped version:** 2.3.21~ynh1
 
 ## Screenshots
 
