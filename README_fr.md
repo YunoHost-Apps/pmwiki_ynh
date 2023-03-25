@@ -20,11 +20,11 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 
 ### Features
 
-- Présentation personnalisée ;
-- Contrôle d'accès ;
+- Présentation personnalisée
+- Contrôle d'accès
 - Personnalisation et modules
 
-**Version incluse :** 2.3.5~ynh1
+**Version incluse :** 2.3.21~ynh1
 
 ## Captures d’écran
 
