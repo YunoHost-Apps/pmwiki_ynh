@@ -26,8 +26,6 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 **Version incluse :** 2.3.5~ynh1
 
 
-**Démo :** https://demo.example.com
-
 ## Captures d'écran
 
 ![Capture d'écran de PmWiki](./doc/screenshots/pmwiki.png)
