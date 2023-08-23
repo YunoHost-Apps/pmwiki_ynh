@@ -2,10 +2,10 @@ packaging_format = 2
 
 id = "pmwiki"
 name = "PmWiki"
-description.en = "wiki-based content-management system (CMS) for collaborative creation and maintenance of websites"
-description.fr = "Système de type wiki pour la création et l'entretien collectif de sites Internet"
+description.en = "Wiki-based CMS for collaborative creation and maintenance of websites"
+description.fr = "Wiki pour la création et l'entretien collectif de sites Internet"
 
-version = "2.3.21~ynh1"
+version = "2.3.25~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ admindoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr"
 userdoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -43,12 +43,12 @@ ram.runtime = "50M"
 [resources]
     [resources.sources]
         [resources.sources.main]
-        url = "https://www.pmwiki.org/pub/pmwiki/pmwiki-2.3.23.zip"
-        sha256 = "6f2444fa162c304f085824432b307fb46639740db3104a50aa9549ba94a42861"
+        url = "https://www.pmwiki.org/pub/pmwiki/pmwiki-2.3.25.zip"
+        sha256 = "401b2c5ca743c8a5fc4508bf7bba5acfa8cae05bd5369f43ec7ae3a41991a870"
 
         [resources.sources.fr]
         url = "http://www.pmwiki.org/pub/pmwiki/i18n/i18n-fr.zip"
-        sha256 = "60dad83078cf0f4f627cee31f8626c7c8141b0389a04dd4785dd66fbea3b2153"
+        sha256 = "29740376f2405fbf1ebebae291cc58bf5265367f376985a5235fe3709ae7093c"
 
     [resources.system_user]
 
@@ -58,4 +58,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.0-fpm"
+    packages = "php8.2-fpm"
