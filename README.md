@@ -35,7 +35,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 * Official app website: <https://www.pmwiki.org>
 * Official user documentation: <https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers>
 * Official admin documentation: <https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr>
-* YunoHost documentation for this app: <https://yunohost.org/app_pmwiki>
+* YunoHost Store: <https://apps.yunohost.org/app/pmwiki>
 * Report a bug: <https://github.com/YunoHost-Apps/pmwiki_ynh/issues>
 
 ## Developer info
