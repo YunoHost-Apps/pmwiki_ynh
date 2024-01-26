@@ -24,7 +24,7 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 - Contrôle d'accès
 - Personnalisation et modules
 
-**Version incluse :** 2.3.25~ynh1
+**Version incluse :** 2.3.25~ynh2
 
 ## Captures d’écran
 
