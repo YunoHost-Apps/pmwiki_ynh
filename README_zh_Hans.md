@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 PmWiki
+# YunoHost 上的 PmWiki
 
 [![集成程度](https://dash.yunohost.org/integration/pmwiki.svg)](https://dash.yunohost.org/appci/app/pmwiki) ![工作状态](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
 
