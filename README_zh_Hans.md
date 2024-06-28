@@ -5,7 +5,7 @@
 
 # YunoHost 上的 PmWiki
 
-[![集成程度](https://dash.yunohost.org/integration/pmwiki.svg)](https://dash.yunohost.org/appci/app/pmwiki) ![工作状态](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/pmwiki.svg)](https://ci-apps.yunohost.org/ci/apps/pmwiki/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
 
 [![使用 YunoHost 安装 PmWiki](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
@@ -24,7 +24,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control
 - Customization and plugin architecture
 
-**分发版本：** 2.3.32~ynh3
+**分发版本：** 2.3.32~ynh4
 
 ## 截图
 
