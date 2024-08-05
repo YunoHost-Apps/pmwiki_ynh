@@ -24,7 +24,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control
 - Customization and plugin architecture
 
-**Versión proporcionada:** 2.3.32~ynh5
+**Versión proporcionada:** 2.3.32~ynh6
 
 ## Capturas de pantalla
 
