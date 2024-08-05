@@ -51,7 +51,7 @@ ram.runtime = "50M"
 
         [resources.sources.fr]
         url = "http://www.pmwiki.org/pub/pmwiki/i18n/i18n-fr.zip"
-        sha256 = "c9d82772003a3cb6cbe76d6d825a9218d00e7586eea93a2bbec256fab571b190"
+        sha256 = "edc1e591f0d901cda90d4ab3a4e6b4d0f6a910454a35837a15a361dc6520354d"
 
     [resources.system_user]
 
