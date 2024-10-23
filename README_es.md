@@ -24,7 +24,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control
 - Customization and plugin architecture
 
-**Versión actual:** 2.3.32~ynh7
+**Versión actual:** 2.3.32~ynh8
 
 ## Capturas
 
@@ -40,7 +40,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/pmwiki_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/pmwiki_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
