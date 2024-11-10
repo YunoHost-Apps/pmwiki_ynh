@@ -5,7 +5,7 @@ name = "PmWiki"
 description.en = "Wiki-based CMS for collaborative creation and maintenance of websites"
 description.fr = "Wiki pour la création et l'entretien collectif de sites Internet"
 
-version = "2.3.32~ynh8"
+version = "2.3.32~ynh9"
 
 maintainers = [ ]
 
@@ -51,7 +51,7 @@ ram.runtime = "50M"
 
         [resources.sources.fr]
         url = "http://www.pmwiki.org/pub/pmwiki/i18n/i18n-fr.zip"
-        sha256 = "5a786a32acdad43394626b22ba9d73884ddd7a266c71eb6f72a95b3c58ac81b1"
+        sha256 = "b6bcfdb14f0185748eb851f2d6f021eb786a362eeb5414662237a2743e363aae"
 
     [resources.system_user]
 
