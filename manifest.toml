@@ -16,7 +16,7 @@ admindoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr"
 userdoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -51,7 +51,7 @@ ram.runtime = "50M"
 
         [resources.sources.fr]
         url = "http://www.pmwiki.org/pub/pmwiki/i18n/i18n-fr.zip"
-        sha256 = "b6bcfdb14f0185748eb851f2d6f021eb786a362eeb5414662237a2743e363aae"
+        sha256 = "cb26646684fb93f058458aa9c9a4cf8253a6936b54d0a0f86c446c901e52c599"
 
     [resources.system_user]
 
