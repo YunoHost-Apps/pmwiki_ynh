@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # PmWiki YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/pmwiki.svg)](https://ci-apps.yunohost.org/ci/apps/pmwiki/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/pmwiki)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/pmwiki)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/pmwiki)
 
 [![Instalatu PmWiki YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
@@ -24,7 +26,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control
 - Customization and plugin architecture
 
-**Paketatutako bertsioa:** 2.3.32~ynh9
+**Paketatutako bertsioa:** 2.3.32~ynh10
 
 ## Pantaila-argazkiak
 

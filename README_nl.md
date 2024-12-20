@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # PmWiki voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/pmwiki.svg)](https://ci-apps.yunohost.org/ci/apps/pmwiki/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/pmwiki)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/pmwiki)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/pmwiki)
 
 [![PmWiki met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
@@ -24,7 +26,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control
 - Customization and plugin architecture
 
-**Geleverde versie:** 2.3.32~ynh9
+**Geleverde versie:** 2.3.32~ynh10
 
 ## Schermafdrukken
 
