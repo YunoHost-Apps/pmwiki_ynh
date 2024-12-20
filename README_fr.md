@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # PmWiki pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/pmwiki.svg)](https://ci-apps.yunohost.org/ci/apps/pmwiki/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/pmwiki)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/pmwiki)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/pmwiki)
 
 [![Installer PmWiki avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
@@ -24,7 +26,7 @@ PmWiki est un système de type wiki pour la création et l'entretien collectif d
 - Contrôle d'accès
 - Personnalisation et modules
 
-**Version incluse :** 2.3.32~ynh9
+**Version incluse :** 2.3.32~ynh10
 
 ## Captures d’écran
 
