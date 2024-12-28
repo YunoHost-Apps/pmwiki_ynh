@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # PmWiki untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/pmwiki.svg)](https://ci-apps.yunohost.org/ci/apps/pmwiki/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/pmwiki.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/pmwiki.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/pmwiki)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
+![Status kerja](https://apps.yunohost.org/badge/state/pmwiki)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/pmwiki)
 
 [![Pasang PmWiki dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=pmwiki)
 
@@ -24,7 +26,7 @@ PmWiki is a wiki-based content-management system (CMS) for collaborative creatio
 - Access control
 - Customization and plugin architecture
 
-**Versi terkirim:** 2.3.32~ynh9
+**Versi terkirim:** 2.3.32~ynh11
 
 ## Tangkapan Layar
 
