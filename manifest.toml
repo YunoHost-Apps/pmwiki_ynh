@@ -5,7 +5,7 @@ name = "PmWiki"
 description.en = "Wiki-based CMS for collaborative creation and maintenance of websites"
 description.fr = "Wiki pour la création et l'entretien collectif de sites Internet"
 
-version = "2.3.32~ynh11"
+version = "2.3.32~ynh12"
 
 maintainers = [ ]
 
