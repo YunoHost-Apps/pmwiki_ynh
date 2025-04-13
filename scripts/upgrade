@@ -1,7 +1,16 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
+
+#=================================================
+# ENSURE DOWNWARD COMPATIBILITY
+#=================================================
+ynh_script_progression "Ensuring downward compatibility..."
 
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=100M
 
@@ -10,28 +19,24 @@ ynh_app_setting_set_default --key=php_upload_max_filesize --value=100M
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
+# Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir" --keep="local/config.php"
-
-#=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression "Upgrading NGINX web server configuration..."
-
-ynh_config_add_nginx
-
-ynh_config_add_phpfpm
 
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-#ynh_script_progression "Updating configuration..."
+#ynh_script_progression "Updating $app's configuration files..."
 
 #ynh_config_add --template="some_config_file" --destination="$install_dir/some_config_file"
 
 #=================================================
-# SETUP LOGROTATE
+# REAPPLY SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression "Upgrading logrotate configuration..."
+ynh_script_progression "Upgrading system configurations related to $app..."
+
+ynh_config_add_phpfpm
+
+ynh_config_add_nginx
 
 ynh_config_add_logrotate
 
