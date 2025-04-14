@@ -1,13 +1,17 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
 
-ynh_app_setting_set --key=php_upload_max_filesize --value=100M
+#=================================================
+# INITIALIZE AND STORE SETTINGS
+#=================================================
 
-#=================================================
-# RETRIEVE ARGUMENTS FROM THE MANIFEST
-#=================================================
+ynh_app_setting_set --key=php_upload_max_filesize --value=100M
 
 timezone=$(cat /etc/timezone)
 
@@ -16,27 +20,29 @@ timezone=$(cat /etc/timezone)
 #=================================================
 ynh_script_progression "Setting up source files..."
 
+# Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir"
 
-ynh_setup_source --dest_dir="$install_dir/wikilib.d" --source_id=fr
-
 #=================================================
-# NGINX CONFIGURATION
+# APP INITIAL CONFIGURATION
 #=================================================
-ynh_script_progression "Configuring NGINX web server..."
-
-ynh_config_add_nginx
-
-ynh_config_add_phpfpm
-
-ynh_config_add_logrotate
-
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression "Adding $app's configuration..."
+ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template="config.php" --destination="$install_dir/local/config.php"
+
+#=================================================
+# SYSTEM CONFIGURATION
+#=================================================
+ynh_script_progression "Adding system configurations related to $app..."
+
+# Create a PHP-FPM config (with conf/extra_php-fpm.conf being appended to it)
+ynh_config_add_phpfpm
+
+# Create a dedicated NGINX config using the conf/nginx.conf template
+ynh_config_add_nginx
+
+# Use logrotate to manage application logfile(s)
+ynh_config_add_logrotate
 
 #=================================================
 # END OF SCRIPT
