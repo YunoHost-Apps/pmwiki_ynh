@@ -11,18 +11,20 @@ It shall NOT be edited by hand.
 Wiki-based CMS for collaborative creation and maintenance of websites
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.pmwiki.org)
-[![Version: 2.4.3~ynh1](https://img.shields.io/badge/Version-2.4.3~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
+[![Version: 2.4.3~ynh1](https://img.shields.io/badge/Version-2.4.3~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/pmwiki"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/pmwiki_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
+
+## Screenshots
+![Screenshot of PmWiki](./doc/screenshots/pmwiki.png)
+
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/pmwiki)](https://ci-apps.yunohost.org/ci/apps/pmwiki/)
-
-🛠️ Upstream PmWiki repository: <>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/pmwiki_ynh/tree/testing).
 
