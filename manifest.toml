@@ -18,7 +18,7 @@ admindoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr"
 userdoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
