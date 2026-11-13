@@ -7,7 +7,7 @@ name = "PmWiki"
 description.en = "Wiki-based CMS for collaborative creation and maintenance of websites"
 description.fr = "Wiki pour la création et l'entretien collectif de sites Internet"
 
-version = "2.4.3~ynh1"
+version = "2.7.8~ynh1"
 
 maintainers = [ ]
 
@@ -18,7 +18,7 @@ admindoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiFr"
 userdoc = "https://www.pmwiki.org/wiki/PmWikiFr/PmWikiUsers"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.0.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -49,8 +49,8 @@ ram.runtime = "50M"
 [resources]
     [resources.sources]
     [resources.sources.main]
-    url = "https://www.pmwiki.org/pub/pmwiki/pmwiki-2.4.3.zip"
-    sha256 = "2c0eb43f22e6eb5e0878ab05a0150d6848a72d63ee6af9c3d2b2c26c28047b92"
+    url = "https://www.pmwiki.org/downloads/pmwiki/pmwiki-2.7.8.zip"
+    sha256 = "3a535980ff841366263a229e9f942f6143970ac952a36e0dfb3e36d36a21d3e7"
 
     [resources.system_user]
 
@@ -61,4 +61,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-fpm"
+    packages = "php8.5-fpm"
